@@ -5,6 +5,7 @@
 
 body {
     display: flex;
+    margin: 0;
 }
 
 .left {
@@ -18,28 +19,28 @@ body {
     height: 100vh;
     background-image: url("leaf.jpg");
     background-size: auto 100%;
-    /* position: relative; */
 }
 
 .logo {
-    margin-top: 100px;
+    margin-top: 25vh;
     width: 100%;
     display: flex;
     font-family: "MyFont", sans-serif;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.3);
-    /* position: relative; */
-    /* top: 30px; */
-}
-
-.credit {
-    /* position: absolute; */
-    /* bottom:0; */
-    /* left: auto; */
-
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
+    margin: 5px;
+}
+
+.logo h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+input:invalid {
+  border-color: red;
 }
